@@ -1,0 +1,143 @@
+
+.home__hero-section1 {
+    color: #4A90E2;
+    
+}
+
+.home__hero-row{
+    align-items:center;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+
+.title {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 75px;
+    color: #fafafa;
+}
+
+
+
+
+.col1 {
+    flex: 1;
+    max-width: 100%;
+    flex-basis: 50%;
+}
+
+.home__hero-text-wrapper1 {
+    margin-left: 50px;
+    padding-top: 0;
+    margin-bottom: 450px;
+}
+
+.bold-title{
+    /*080808*/
+    color: #fafafa;
+    font-size: 40px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 96px;
+    margin-top: -40px;
+}
+
+.top-line1 {
+    /*080808*/
+    color: #121fd4;
+    font-size: 22px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    margin-top: -40px;
+}
+
+.heading {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.dark {
+    color: #1c2237;
+}
+
+.darkBg {
+    background-color: #4A90E2;
+}
+
+.home__hero-subtitle {
+    color: #fff;
+    max-width: 100%;
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.home__hero-img-wrapper1 {
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.home__hero-img {
+    max-width: 100%;
+    align-items: center;
+    padding-left: 0;
+    margin: 0 0 0 20;
+    
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .home__hero-img-wrapper1 {
+        
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: -250px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home__hero-text-wrapper1{
+        padding-left: 23px;
+        padding-right: 23px;
+        margin-left: 0;
+        margin-top: -200px;
+        
+    }
+    .home__hero-img-wrapper1 {
+        
+        padding-left: 15px;
+        max-width: 100%;
+        margin-top: -400px;
+    }
+    .col { 
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+

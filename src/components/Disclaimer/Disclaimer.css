@@ -1,0 +1,12 @@
+.disclaimer__section {
+    padding: 100px 0 300px;
+    display: flex;
+    flex-direction: column;
+    background: #1c2237;
+    color: #fff;
+    align-items: center;
+}
+
+.disclaimer__text {
+    padding: 60px;
+}

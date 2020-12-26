@@ -1,0 +1,27 @@
+.results__section {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+}
+
+.results__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .results__heading {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #1c2237;
+  }
+
+  @media screen and (max-width: 960px) {
+    .results__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+}

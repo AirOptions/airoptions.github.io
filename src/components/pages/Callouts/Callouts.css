@@ -1,0 +1,28 @@
+.callouts__section {
+    padding: 100px 0 160px;
+    display: flex;
+    flex-direction: column;
+    background: #1c2237;
+}
+
+.callouts__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .callouts__heading {
+    margin-left: 55px;
+    margin-bottom: 15px;
+    color: #fafafa;
+  }
+
+  @media screen and (max-width: 960px) {
+    .callouts__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+}
