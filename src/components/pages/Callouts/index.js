@@ -1,4 +1,3 @@
-import { Tweet } from "react-twitter-widgets";
 import React from "react";
 import "./Callouts.css";
 
@@ -11,7 +10,7 @@ export const Callouts = () => (
     <h1 className='callouts__heading'>Callouts</h1>
     <div className="callouts__container">
     <div className = 'firstTweet'>
-    <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">🚨 These <a href="https://twitter.com/search?q=%24DQ&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$DQ</a> are now at the 10.2 from .72 for 1317% BOOOOOM 🚨 <a href="https://t.co/MREgR0ncDv">https://t.co/MREgR0ncDv</a></p>&mdash; Air Options (@air_options) <a href="https://twitter.com/air_options/status/1339944656138883072?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"> twttr.widgets.load();</script>
+    <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">🚨 These <a href="https://twitter.com/search?q=%24DQ&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$DQ</a> are now at the 10.2 from .72 for 1317% BOOOOOM 🚨 <a href="https://t.co/MREgR0ncDv">https://t.co/MREgR0ncDv</a></p>&mdash; Air Options (@air_options) <a href="https://twitter.com/air_options/status/1339944656138883072?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </div>
     <div className = 'secondTweet'>
       <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">🚨 1.1 to 14 for 1172% <a href="https://twitter.com/search?q=%24FSLY&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$FSLY</a> 🚨 <a href="https://t.co/YQ7YAuVwxz">https://t.co/YQ7YAuVwxz</a></p>&mdash; Air Options (@air_options) <a href="https://twitter.com/air_options/status/1334912438001692675?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"> twttr.widgets.load();</script> 
