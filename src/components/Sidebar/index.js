@@ -9,7 +9,6 @@ import {
   SidebarMenu,
   SidebarLink,
 } from "./SidebarElements";
-import { Button } from '../pages/Button'
 
 const Sidebar = ({isOpen, toggle}) => {
   return (

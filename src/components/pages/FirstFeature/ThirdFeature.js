@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import './FirstFeature.css';
-import mainLogo from '../images/FinalDarkFlow.gif'
+import mainLogo from '../images/risk-management2.gif'
 
 function FirstFeature({
     lightBg, topLine, lightText, features, lightTextDesc, headLine, description, img, alt, imgStart 

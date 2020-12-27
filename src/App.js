@@ -8,7 +8,6 @@ import Sidebar from "./components/Sidebar";
 import Navbar from './components/Navbar';
 import Feature from './components/pages/FirstFeature/Feature'
 import Callouts1 from './components/pages/Callouts/Callouts'
-import Disclaimer from './components/Disclaimer/DisclaimerPage'
 import ScrollToTop from "./components/ScrollToTop";
 import DisclaimerPage from "./components/Disclaimer/DisclaimerPage";
 

@@ -2,7 +2,12 @@ import React, {useState} from 'react'
 import Sidebar from '../../Sidebar'
 import Navbar from '../../Navbar'
 import FirstFeature from '../FirstFeature/FirstFeature'
-import {homeObjTwo, homeObjThree, homeObjFour} from '../FirstFeature/Data'
+import SecondFeature from '../FirstFeature/SecondFeature'
+import ThirdFeature from '../FirstFeature/ThirdFeature'
+import {homeObjTwo} from '../FirstFeature/Data'
+import {homeObjThree} from '../FirstFeature/Data2'
+import {homeObjFour} from '../FirstFeature/Data3'
+
 
 
 function Feature() {
@@ -16,8 +21,8 @@ function Feature() {
             <Sidebar isOpen= {isOpen} toggle = {toggle} />
             <Navbar toggle = {toggle}/>
             <FirstFeature {...homeObjTwo} />
-            <FirstFeature {...homeObjThree}/>
-            <FirstFeature {...homeObjFour}/>
+            <SecondFeature {...homeObjThree}/>
+            <ThirdFeature {...homeObjFour}/>
         </>
     )
 }
