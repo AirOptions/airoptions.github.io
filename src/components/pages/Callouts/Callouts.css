@@ -4,7 +4,6 @@
     flex-direction: column;
     background: #1c2237;
 }
-
 .callouts__container {
     display: flex;
     align-items: center;
@@ -17,6 +16,55 @@
     color: #fafafa;
   }
 
+  .firstTweet {
+    align-items: flex-start;
+    width: 30%;
+  }
+
+  .fifthTweet {
+    align-items: flex-start;
+    width: 30%;
+  }
+
+  .sixthTweet {
+    align-items: flex-start;
+    width: 28%;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .callouts__heading {
+      margin-left: 100px;
+      margin-bottom: 15px;
+      color: #fafafa;
+    }
+    .callouts__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .firstTweet{
+      width: 100%;
+    }
+    .secondTweet{
+      width: 100%;
+    }
+    .thirdTweet{
+      width: 100%;
+    }
+    .fourthTweet{
+      width: 100%;
+    }
+    .fifthTweet {
+      width: 100%;
+    }
+    .sixthTweet {
+      width: 100%;
+    }
+  }
+
   @media screen and (max-width: 960px) {
     .callouts__container {
       display: flex;
@@ -25,14 +73,24 @@
       align-items: center;
       width: 100%;
     }
+
+    .firstTweet{
+      width: 80%;
+    }
+    .secondTweet{
+      width: 80%;
+    }
+    .thirdTweet{
+      width: 80%;
+    }
+    .fourthTweet{
+      width: 80%;
+    }
+    .fifthTweet {
+      width: 80%;
+    }
+    .sixthTweet {
+      width: 80%;
+    }
   }
 
-  @media screen and (max-width: 768px) {
-    .callouts__container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-}
