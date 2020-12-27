@@ -1,5 +1,7 @@
 .callouts__section {
-    padding: 100px 0 160px;
+  -webkit-overflow-scrolling:touch;
+    overflow: auto;
+    padding: 100px 0 180px;
     display: flex;
     flex-direction: column;
     background: #1c2237;
