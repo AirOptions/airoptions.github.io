@@ -6,7 +6,7 @@ import { Tweet } from 'react-twitter-widgets'
 export const Callouts = () => (
     <>
   <div className='callouts__section'>
-    <h1 className='callouts__heading'>crawlerr</h1>
+    <h1 className='callouts__heading'>Callouts</h1>
     <div className="callouts__container">
       <Tweet tweetId="1339944656138883072" options={{align: 'left', width: '400'}}/>
       <Tweet tweetId="1334912438001692675" options={{align: 'left', width: '400'}}/>
