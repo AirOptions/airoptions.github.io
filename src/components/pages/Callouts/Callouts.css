@@ -70,7 +70,11 @@
   }
 
   @media screen and (max-width: 960px) {
+    .twitter-timeline {
+      width: 100vw !important;
+  }
     .callouts__container {
+      width: 100vw !important;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -79,21 +83,32 @@
     }
 
     .firstTweet{
+      width: 100vw !important;
       width: 80%;
     }
     .secondTweet{
+
+      width: 100vw !important;
       width: 80%;
     }
     .thirdTweet{
+
+      width: 100vw !important;
       width: 80%;
     }
     .fourthTweet{
+
+      width: 100vw !important;
       width: 80%;
     }
     .fifthTweet {
+
+      width: 100vw !important;
       width: 80%;
     }
     .sixthTweet {
+
+      width: 100vw !important;
       width: 80%;
     }
   }
