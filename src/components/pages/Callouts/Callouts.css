@@ -16,18 +16,6 @@
     color: #fafafa;
   }
 
-  .firstTweet {
-    width: 30%;
-  }
-
-  .fifthTweet {
-    width: 30%;
-  }
-
-  .sixthTweet {
-    width: 28%;
-  }
-
 
   @media screen and (max-width: 1100px) {
     .callouts__heading {
