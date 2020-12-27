@@ -1,7 +1,7 @@
 .callouts__section {
   -webkit-overflow-scrolling:touch;
     overflow: auto;
-    padding: 100px 0 180px;
+    padding: 100px 0 160px;
     display: flex;
     flex-direction: column;
     background: #1c2237;
@@ -54,45 +54,29 @@
   }
 
   @media screen and (max-width: 960px) {
-    .twitter-timeline {
-      width: 100vw !important;
-  }
     .callouts__container {
-      width: 100vw !important;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
       width: 100%;
     }
 
     .firstTweet{
-      width: 100vw !important;
       width: 80%;
     }
     .secondTweet{
-
-      width: 100vw !important;
       width: 80%;
     }
     .thirdTweet{
-
-      width: 100vw !important;
       width: 80%;
     }
     .fourthTweet{
-
-      width: 100vw !important;
       width: 80%;
     }
     .fifthTweet {
-
-      width: 100vw !important;
       width: 80%;
     }
     .sixthTweet {
-
-      width: 100vw !important;
       width: 80%;
     }
   }
