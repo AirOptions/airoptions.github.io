@@ -5,6 +5,5 @@ import {Router} from 'react-router'
 import App from "./App";
 
 ReactDOM.render(
-    twttr.widgets.load(
-<App />, document.getElementById("root") )
+<App />, document.getElementById("root")
 );
