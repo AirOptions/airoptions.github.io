@@ -1,3 +1,7 @@
+html, body {
+  overflow-x:hidden 
+}
+
 .callouts__section {
     padding: 100px 0 160px;
     display: flex;
