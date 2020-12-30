@@ -11,6 +11,10 @@ import FirstFeature from '../FirstFeature/FirstFeature'
 import SecondFeature from '../FirstFeature/SecondFeature'
 import ThirdFeature from '../FirstFeature/ThirdFeature'
 import Callouts from '../Callouts'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-8PZT7GXKPD');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
