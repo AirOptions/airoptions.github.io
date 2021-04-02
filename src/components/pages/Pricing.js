@@ -13,7 +13,7 @@ function Pricing() {
           <h1 className='pricing__heading'>Pricing</h1>
           <div className='pricing__container'>
 
-            //<Link className='pricing__container-card-gold' to='//donatebot.io/checkout/786381620075692042' target='_blank'>
+           {/*<Link className='pricing__container-card-gold' to='//donatebot.io/checkout/786381620075692042' target='_blank'>*/}
               <div className='pricing__container-cardInfo-gold'>
                 <div className='icon' >
 
@@ -33,9 +33,9 @@ function Pricing() {
                   Choose Plan
                 </Button>
               </div>
-            //</Link>
+            {/*</Link>*/}
             
-            //<Link className='pricing__container-card-diamond' to='//donatebot.io/checkout/786381620075692042' target='_blank'>
+            {/*<Link className='pricing__container-card-diamond' to='//donatebot.io/checkout/786381620075692042' target='_blank'>*/}
               <div className='pricing__container-cardInfo-diamond'>
                 <div className='icon'>
                 <IconContext.Provider value = {{color: '#fff', size: 64}}>
@@ -54,7 +54,7 @@ function Pricing() {
                   Choose Plan
                 </Button>
               </div>
-            //</Link>
+            {/*</Link>*/}
           </div>
         </div>
       </div>
